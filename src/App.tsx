@@ -5,7 +5,7 @@ export const App: FC = () => {
 
   return (
     <>
-      <div className="bg-red-500">
+      <div className="bg-red-500 min-h-screen">
         <Homepage />
       </div>
     </>
