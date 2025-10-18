@@ -1,13 +1,9 @@
 import type { FC } from "react";
 import { Homepage } from "./pages/Homepage";
+import catGalaxy from "./assets/cats/cat-galaxy.jpg";
 
 export const App: FC = () => {
 
   return (
     <>
-      <div className="bg-red-500 min-h-screen">
-        <Homepage />
-      </div>
-    </>
-  );
-};
+      <div className="min-h-screen relative"
