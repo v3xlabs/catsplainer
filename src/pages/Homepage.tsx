@@ -11,4 +11,33 @@ export const Homepage = () => {
             <div>Catsplainer</div>
             <div className="w-full flex justify-center gap-4">
                 {/* <Cat name="Whiskers" color="white" /> */}
-                <Textbox text="Ethereum
+                <Textbox text="Ethereum cat" />
+                <div className="h-48 w-48 flex justify-center items-center">
+                <img className="w-full h-full rounded-md" src={catInBath} alt="cat" />
+                </div>
+            </div>
+            <div className="w-full flex justify-center gap-4">
+                <div className="h-48 w-48 flex justify-center items-center">
+                <img className="w-full h-full rounded-md" src={catUpclose} alt="cat" />
+                </div>
+                <Textbox text="Privacy cat" />
+                {/* <Cat name="Whiskers" color="white" /> */}
+            </div>
+            <div className="w-full flex justify-center gap-4">
+                {/* <Cat name="Whiskers" color="white" /> */}
+                <Textbox text="Steve" />
+                <div className="h-48 w-48 flex justify-center items-center">
+                <img className="w-full h-full rounded-md" src={catLoaf} alt="cat" />
+                </div>
+            </div>
+            <div className="w-full flex justify-center gap-4">
+                <div className="h-48 w-48 flex justify-center items-center">
+                    <img className="w-full h-full rounded-md" src={catWithWine} alt="cat" />
+                </div>
+                <Textbox text="Hackathon cat" />
+                {/* <Cat name="Whiskers" color="white" /> */}
+            </div>
+
+        </div>
+    );
+};
